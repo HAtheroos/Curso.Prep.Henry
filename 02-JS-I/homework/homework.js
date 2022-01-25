@@ -4,19 +4,19 @@
 const nuevaString = "anashex";
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 99 ;
+const nuevoNum = 99;
 
 // Crea una variable booleana:
-const nuevoBool = pelota = true ;
+const nuevoBool = pelota = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - 5 === 5 ;
+const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * 4 === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 1 ;
+const nuevoModulo = 21 % 5 === 1;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -35,15 +35,15 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-   var suma = x + y
-   return suma
-  
+  var suma = x + y
+  return suma
+
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  var resta = x - y 
+  var resta = x - y
   return resta
 }
 
@@ -52,7 +52,7 @@ function multiplica(x, y) {
   // Tu código:
   var multiplica = x * y
   return multiplica
-  
+
 }
 
 function divide(x, y) {
@@ -75,14 +75,14 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (str1.length === str2.length) { return true; }
-  return false; 
+  return false;
 }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  if ( num < 90 ) { return true; }
+  if (num < 90) { return true; }
   return false
 }
 
@@ -90,14 +90,14 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num > 50) {return true; }
+  if (num > 50) { return true; }
   return false
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  var obtenerResto = x % y 
+  var obtenerResto = x % y
   return obtenerResto
 }
 
@@ -105,7 +105,7 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if ((num % 2) === 0 ) {return true; }
+  if ((num % 2) === 0) { return true; }
   return false;
 }
 
@@ -113,7 +113,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if ((num % 2) > 0 ) {return true; }
+  if ((num % 2) > 0) { return true; }
   return false;
 }
 
@@ -121,21 +121,21 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  var elevarAlCuadrado = Math.pow(num,2)
+  var elevarAlCuadrado = Math.pow(num, 2)
   return elevarAlCuadrado
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  var elevarAlCubo = Math.pow(num,3) 
+  var elevarAlCubo = Math.pow(num, 3)
   return elevarAlCubo
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  var elevar = Math.pow(num,exponent)
+  var elevar = Math.pow(num, exponent)
   return elevar
 }
 
@@ -156,7 +156,7 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  var numeroRandom = Math.random(0,1)
+  var numeroRandom = Math.random(0, 1)
   return numeroRandom
 }
 
@@ -165,8 +165,8 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if (numero > 0) { return "Es positivo"}
-  if (numero < 0) { return "Es negativo"}
+  if (numero > 0) { return "Es positivo" }
+  if (numero < 0) { return "Es negativo" }
   return false
 }
 
@@ -202,23 +202,23 @@ function obtenerAreaRectangulo(alto, ancho) {
 }
 
 
-function retornarPerimetro(lado){
+function retornarPerimetro(lado) {
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  var retornarPerimetro = lado * 4 
+  var retornarPerimetro = lado * 4
   return retornarPerimetro
 }
 
 
-function areaDelTriangulo(base, altura){
+function areaDelTriangulo(base, altura) {
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-var areaDelTriangulo = (base * altura) / 2
-return areaDelTriangulo
+  var areaDelTriangulo = (base * altura) / 2
+  return areaDelTriangulo
 }
 
 
-function deEuroAdolar(euro){
+function deEuroAdolar(euro) {
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
@@ -227,14 +227,14 @@ function deEuroAdolar(euro){
 }
 
 
-function esVocal(letra){
+function esVocal(letra) {
   //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
   //Verificar si el usuario ingresó un string de más de un carácter, en ese caso, informarle 
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u" ) {return "Es vocal"}
-  if (letra.length > 1 ) {return "Dato incorrecto"}
+  if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") { return "Es vocal" }
+  if (letra.length > 1) { return "Dato incorrecto" }
   return "Dato incorrecto"
 }
 
